@@ -1,8 +1,6 @@
-# 
-Returns a number in full
+# Returns a number in full
 
-## 
-Installation / Configuration
+## Installation / Configuration
 
 Include ServiceProvider in the config \ app.php file
 
