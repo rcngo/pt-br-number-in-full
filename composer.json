@@ -30,10 +30,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "rcngo\\PtBrNumberInWords\\Provider\\PtBrNumberInWordsServiceProvider"
+                "rcngo\\PtBrNumberInWords\\Provider\\"
             ],
             "aliases": {
-                "Debugbar": "rcngo\\PtBrNumberInWords\\Facade\\PtBrNumberInWords"
+                "Debugbar": "rcngo\\PtBrNumberInWords\\Facade\\"
             }
         }
     }
