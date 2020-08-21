@@ -26,5 +26,15 @@
     "require-dev": {
         "orchestra/testbench": "~v5.4.0",
         "phpunit/phpunit": "9.2.*"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "rcngo\\PtBrNumberInWords\\Provider\\PtBrNumberInWordsServiceProvider"
+            ],
+            "aliases": {
+                "Debugbar": "rcngo\\PtBrNumberInWords\\Facade\\PtBrNumberInWords"
+            }
+        }
     }
 }
