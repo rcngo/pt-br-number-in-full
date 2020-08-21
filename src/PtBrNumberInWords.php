@@ -1,10 +1,10 @@
 <?php
 
-namespace rcngo\PtBrNumberInFull;
+namespace rcngo\PtBrNumberInWords;
 
-class PtBrNumberInFull
+class PtBrNumberInWords
 {
-    public function getFull(float $value, bool $displayCurrency = true, bool $feminineWord = false): string
+    public function convertToWords(float $value, bool $displayCurrency = true, bool $feminineWord = false): string
     {
         $singular = null;
         $plural = null;

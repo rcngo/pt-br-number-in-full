@@ -1,4 +1,4 @@
-# Returns a number in full
+# Convert number in words
 
 ## Installation / Configuration
 
@@ -6,7 +6,7 @@ Include ServiceProvider in the config \ app.php file
 
 ```php
 'providers' => [
-    rcngo\PtBrNumberInFull\Provider\PtBrNumberInFullServiceProvider::class,
+    rcngo\PtBrNumberInWords\Provider\PtBrNumberInWordsServiceProvider::class,
 ];
 ```
 
@@ -14,7 +14,7 @@ Also in this file, register the facade in the 'aliases' array
 
 ```php
 'aliases' => [
-    'NumberInFull' => rcngo\PtBrNumberInFull\Facade\PtBrNumberInFull::class,
+    'NumberInWords' => rcngo\PtBrNumberInWords\Facade\PtBrNumberInWords::class,
 ];
 ```
 
@@ -23,13 +23,13 @@ Also in this file, register the facade in the 'aliases' array
 
 ```php
 
-NumberInFull::getFull(1);
+NumberInWords::convertToWords(1);
 //Return um real
 
-NumberInFull::getFull(1, false);
+NumberInWords::convertToWords(1, false);
 //Return um
 
-NumberInFull::getFull(1, false, true);
+NumberInWords::convertToWords(1, false, true);
 //Return uma
 
 ```
