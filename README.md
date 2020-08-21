@@ -2,21 +2,30 @@
 
 ## Installation / Configuration
 
-Include ServiceProvider in the config \ app.php file
+Navigate to your project folder, for example:
 
-```php
-'providers' => [
-    rcngo\PtBrNumberInWords\Provider\PtBrNumberInWordsServiceProvider::class,
-];
+```
+cd /etc/www/projeto
 ```
 
-Also in this file, register the facade in the 'aliases' array
+And then run:
+
+```
+composer require rcngo/pt-br-number-in-words:1.2.* --no-scripts
+```
+
+Or add it to the composer.json file, add it to your "require" :, example:
 
 ```php
-'aliases' => [
-    'NumberInWords' => rcngo\PtBrNumberInWords\Facade\PtBrNumberInWords::class,
-];
+{
+    "require": {
+        "rcngo/pt-br-number-in-words": "1.2.*"
+    }
+}
 ```
+
+
+Run the composer update --no-scripts command.
 
 ## Use
 

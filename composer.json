@@ -33,7 +33,7 @@
                 "rcngo\\PtBrNumberInWords\\Provider\\PtBrNumberInWordsServiceProvider"
             ],
             "aliases": {
-                "Debugbar": "rcngo\\PtBrNumberInWords\\Facade\\PtBrNumberInWords"
+                "NumberInWords": "rcngo\\PtBrNumberInWords\\Facade\\PtBrNumberInWords"
             }
         }
     }
